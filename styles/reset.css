@@ -1,0 +1,26 @@
+/* 폰트 적용, 현재 노토산스와 나눔고딕 두개 모두 적용되어 있음.
+import 파일 링크 넣으면 됨. css링크는 디자인 파일에 넣기*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Sans+KR:wght@300;400;500&display=swap');
+* {box-sizing: border-box; }
+/* 위 코드 기존 크기에서 원하는 사이즈 만큼을 더해주는 코드 */
+html, body, h1, h2, h3, h4, h5, h6, 
+p, blockquote, ul, ol, li, dl, dt, dd, address, 
+strong, em, sub, sup, del, s, q, code, img, a, video, 
+table, tr, th, td, thead, tbody, tfoot,
+form, fieldset, input, label, legend, button, textarea, option, select,
+header, nav, main, footer, aside, section, article, figure, figcaption, div, span {
+    margin:0; padding:0;
+    font-size:1.0rem;
+    font-weight:normal;
+    font-style:normal;
+    line-height:1.0;
+    list-style:none;
+    font-family:'맑은고딕', "Font Awesome 5 Free","Font Awesome 5 Brands";
+}
+a {text-decoration:none; color:#000}
+table, tr, td, th
+{border-collapse:collapse; }
+button {cursor:pointer; border:none; background:none; }
+.skip {display:none; }
+.awesome::after,
+.awesome::before {font-weight:600;}
